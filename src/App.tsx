@@ -18,6 +18,7 @@ import {
   GraduationCap,
   Palette
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 import cyberpunkHemantImage from './WhatsApp Image 2026-10-07 at 4.13.51 PM.jpeg';
 import normalHemantImage from './WhatsApp Image 2026-10-07 at 4.19.26 PM.jpeg';
 
@@ -1359,6 +1360,7 @@ export default function App() {
           </div>
         </div>
       )}
+      <Analytics />
     </div>
   );
 }
